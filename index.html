@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER INFORMATION FORM</title>
+    <!--link file stylesheet css -->
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body style=" background-color: aquamarine;">
+    <center>
+    <form>
+        <h1>USER INFORMATION FORM</h1>
+        <label>Enter User Name:</label>
+        <input type="text" placeholder="please input your name" required> <br><br>
+        <label>Enter Password:</label>
+        <input type="password" placeholder="please input your password" required> <br><br>
+        <label>Enter Email:</label>
+        <input type="email" placeholder="please inpput your email" required> <br><br>
+        <label>Enter Age:</label>
+        <input type="number" placeholder="please input your age" required> <br><br>
+        <!-- radio button -->
+        <label>Gender:</label>
+        <label>
+            <input type="radio" name="Gender" value="male" checked> Male
+            <input type="radio" name="Gender" value="female"> Female
+        </label><br><br>
+        <!-- checkbox -->
+         <label>Subject:</label>
+         <label><input type="checkbox" name="Subject" checked value="WEB">WEB</label>
+         <label><input type="checkbox" name="Subject" value="C#">C#</label>
+         <label><input type="checkbox" name="Subject" value="AC">AC</label>
+         <label><input type="checkbox" name="Subject" value="GD">GD</label>
+         <label><input type="checkbox" name="Subject" value="A+">A+</label>
+         <label><input type="checkbox" name="Subject" value="ENG">ENG</label><br><br>
+        <!-- Combo Box Select -->
+         <label>Choose a School</label>
+         <select>
+            <option value="SETEC">SETEC</option>
+            <option value="RUPP">RUPP</option>
+            <option value="NUM">NUM</option>
+            <option value="NIE">NIE</option>
+         </select><br><br>
+        <!-- Type description -->
+         <label>Description</label><br>
+         <textarea rows="4" cols="30" placeholder="Write your comment here..."></textarea><br><br>
+
+        <br><br><input type="submit" value="Log In">&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Clear">
+    </form>
+    </center>
+</body>
+</html>
